@@ -1,21 +1,21 @@
 Yii Jouele Widget
 =================
 
-Wrapper around Jouele player - a beautiful audio player for the web
+Обёртка для Жуэль — простого и красивого плеера для веба
 
-- [Examples](http://stanislavkrsv.github.com/yii-jouele-widget)
-- [Github Project Page](https://github.com/stanislavkrsv/jouele)
+- [Примеры](http://stanislavkrsv.github.com/yii-jouele-widget)
+- [Страница на Github](https://github.com/stanislavkrsv/jouele)
 
 
-Installation
+Установка
 ------------------
 
-Unpack to protected/extensions.
+Распакуйте в protected/extensions.
 
-Usage
+Использование
 ------------------
 
-### Using with a model
+### Используя модель
 
 ~~~
 $this->widget('ext.jouele.Jouele', array(
@@ -27,12 +27,12 @@ $this->widget('ext.jouele.Jouele', array(
 ));
 ~~~
 
-### Using with a string
+### Используя строки
 
 ~~~
 $this->widget('ext.jouele.Jouele', array(
     'file' => '/patch/to/file.mp3',
-    'name' => 'The Black Keys - Lonely Boy',
+    'name' => 'The Black Keys — Lonely Boy',
     'htmlOptions' => array(
         'class' => 'jouele-skin-silver',
      )
